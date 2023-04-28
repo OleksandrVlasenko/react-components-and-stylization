@@ -13,7 +13,7 @@
     "name": "Sit amet consectetur adipisicing elit",
     "location": "Kyiv, Ukraine",
     "speaker": "John Weak",
-    "type": "free",
+    "type": "vip",
     "time": {
       "start": "2022-02-17T14:30:00",
       "end": "2022-02-17T16:30:00"
@@ -23,7 +23,7 @@
     "name": "Magni error sed dolores quasi",
     "location": "Kyiv, Ukraine",
     "speaker": "John Weak",
-    "type": "free",
+    "type": "paid",
     "time": {
       "start": "2022-02-17T14:30:00",
       "end": "2022-02-17T16:30:00"
@@ -43,7 +43,7 @@
     "name": "Ldolorem maiores recusandae voluptatem placeat",
     "location": "Kyiv, Ukraine",
     "speaker": "John Weak",
-    "type": "free",
+    "type": "paid",
     "time": {
       "start": "2022-02-17T14:30:00",
       "end": "2022-02-17T16:30:00"
@@ -53,7 +53,7 @@
     "name": "Reiciendis exercitationem tenetur.",
     "location": "Kyiv, Ukraine",
     "speaker": "John Weak",
-    "type": "free",
+    "type": "vip",
     "time": {
       "start": "2022-02-17T14:30:00",
       "end": "2022-02-17T16:30:00"

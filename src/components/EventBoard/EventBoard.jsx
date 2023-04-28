@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { Event } from 'components/Event/Event';
 
 export const EventBoard = ({ events }) => {
-  console.log('EventBoard  events:', events);
+  // console.log('EventBoard  events:', events);
   return (
-    <div className={css.eventBoard}>
+    <ul className={css.eventBoard}>
       {events.map(({ name, location, speaker, type, time }) => (
         <Event
           key={name}
@@ -17,7 +17,7 @@ export const EventBoard = ({ events }) => {
           end={time.end}
         />
       ))}
-    </div>
+    </ul>
   );
 };
 
@@ -28,12 +28,10 @@ EventBoard.propTypes = {
       location: PropTypes.string.isRequired,
       speaker: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
-      time: PropTypes.objectOf(
-        PropTypes.exact({
-          start: PropTypes.string.isRequired,
-          end: PropTypes.string.isRequired,
-        })
-      ),
+      time: PropTypes.exact({
+        start: PropTypes.string.isRequired,
+        end: PropTypes.string.isRequired,
+      }),
     })
   ).isRequired,
 };
