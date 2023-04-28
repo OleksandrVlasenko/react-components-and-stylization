@@ -1,8 +1,9 @@
-import css from "components/PageTitle/PageTitle.module.css"
+// import css from "components/PageTitle/PageTitle.module.css"
 import PropTypes from 'prop-types';
+import { Title } from 'components/PageTitle/PageTitle.styled';
 
 export const PageTitle = ({ text }) => {
-  return <h1 className={css.title}>{text}</h1>
+  return <Title>{text}</Title>;
 }
 
 PageTitle.propTypes = {
